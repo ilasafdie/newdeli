@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Fuentes -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;600&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+  <!-- Css propio -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>New Deli - Kosher FastFood </title>
+</head>
+
+<body>
+  <nav>
+    <div class="contenedor nav">
+      <div><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+      <ul class="menu">
+        <li><a href="#inicio">INICIO</a></li>
+        <li><a href="#nosotros">NOSOTROS</a></li>
+        <li><a href="#destacados">DESTACADOS</a></li>
+        <li><a href="#productos">PRODUCTOS</a></li>
+        <li><a href="#promociones">PROMOCIONES</a></li>
+        <li><a href="#sectionContacto">CONTACTO</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Slider -->
+
+  <figure class="slider">
+    <div id="id_carousel" class="carousel">
+      <div class="carousel__slide">
+        <img data-lazy-src="img/baner.jpeg" alt="Imagen 1">
+      </div>
+      <div class="carousel__slide">
+        <img data-lazy-src="img/baner_combo.jpeg" alt="Imagen 2">
+      </div>
+      <div class="carousel__slide">
+        <img data-lazy-src="img/banner_3.jpg" alt="Imagen 3">
+      </div>
+      <div class="carousel__slide">
+        <img data-lazy-src="img/banner_4.jpg" alt="Imagen 4">
+      </div>
+    </div>
+  </figure>
+
+  <!-- Aca seccion 1 -->
+  <section id="nosotros" class="contenedor">
+    <div class="fondo">
+      <h2 class="titulo">SOBRE NOSOTROS</h2>
+      <div class="conocenos">
+        <p>Now deli te ofece los mejores productos para compartir en familia y con amigos. Donde prodras tener los
+          mejores sandwiches, platos o ensaladas en tu mesa.
+          Contamos con delivery super rapido. Tu comida en instantes.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Aca seccion 2 -->
+  <section id="destacados" class="contenedor">
+    <h2 class="titulo">PRODUCTOS DESTACADOS</h2>
+    <div class="seccion">
+      <article id="sandwiches 1" class="card">
+        <div class="coluno">
+          <img src="img/marinate.jpg" alt="marinated chiken">
+        </div>
+
+        <h2>MARINATED CHIKEN</h2>
+        <div class="coluno">
+          <p>
+            Sandwich de pollo fileteado, marinado con barbacoa.
+          </p>
+        </div>
+        <a class="boton" href="#">Más información</a>
+      </article>
+
+      <article id="sandwiches 2" class="card">
+        <div class="columna">
+          <img src="img/chinchulines.jpg" alt="deli chinchu">
+          <h2>DELI CHINCHU</h2>
+          <p>Sandwich de chinchulin incluye papas fritas.</p>
+        </div>
+        <a class="boton" href="#">Más información</a>
+      </article>
+
+      <article id="sandwiches 3" class="card">
+        <div class="columna">
+          <img src="img/burger.jpg" alt="burger simple">
+          <h2>BURGER SIMPLE</h2>
+          <p>Sandwich de hamburguesa simple.</p>
+        </div>
+        <a class="boton" href="#">Más información</a>
+      </article>
+    </div>
+  </section>
+  <!-- Aca seccion 3 -->
+
+  <section id="productos" class="contenedor">
+    <h2 class="titulo">PRODUCTOS</h2>
+    <div class="productos">
+      <a href="img/productos/1.jpg" data-fancybox="gallery" data-caption="VEGETARIAN SALAD">
+        <img src="img/ensalada.jpg" alt="producto_1">
+      </a>
+      <a href="img/productos/2.jpg" data-fancybox="gallery" data-caption="GRILLED CHIKEN">
+        <img src="img/pollo.jpg" alt="producto_2">
+      </a>
+      <a href="img/productos/3.jpg" data-fancybox="gallery" data-caption="STEAK CHIPS">
+        <img src="img/bife.jpg" alt="producto_3">
+      </a>
+      <a href="img/productos/4.jpg" data-fancybox="gallery" data-caption="SHAWARMA">
+        <img src="img/shawarma.jpg" alt="producto_4">
+      </a>
+      <a href="img/productos/5.jpg" data-fancybox="gallery" data-caption="SHNITZEL SHIPS">
+        <img src="img/suprema.jpg" alt="producto_5">
+      </a>
+      <a href="img/productos/6.jpg" data-fancybox="gallery" data-caption="DELI HOT PASTRAMI">
+        <img src="img/ensalada.jpg" alt="producto_6">
+      </a>
+    </div>
+  </section>
+
+  <!-- Aca seccion 4 -->
+  <section class="contenedor-ofertas" id="promociones">
+    <h2>PROMOCIONES</h2>
+    <div class="promos">
+      <article id="combo1" class="card_promo">
+        <img src="img/promo 1.jpg" alt="Hot pastrami">
+        <h3>HOT PASTRAMI</h3>
+        <p>$2500</p>
+        <a class="btnComprar" href="#">COMPRAR</a>
+      </article>
+
+      <article id="combo2" class="card_promo">
+        <img src="img/promo 2.jpg" alt="Hamburguesa">
+        <h3>HAMBURGUESAS</h3>
+        <p>$4000</p>
+        <a class="btnComprarTasa" href="#">COMPRAR</a>
+      </article>
+
+      <article id="combo3" class="card_promo">
+        <img src="img/promo 3.jpg" alt="Arábica">
+        <h3>SUPER PANCHOS</h3>
+        <p>$2000</p>
+        <a class="btnComprar" href="#">COMPRAR</a>
+      </article>
+    </div>
+
+    <div><a class="btnVerPromos" href="#">VER MÁS COMBOS</a></div>
+  </section>
+
+  <!-- Aca el Formulario -->
+
+  <section class="form-contenedor" id="sectionContacto">
+		<div class="formulario">
+			<h2>CONTÁCTANOS</h2>
+			<form action="consulta" method="post">
+				<div class="espaciado">
+					<label for="nombre-y-apellido">Nombre y apellido:</label>
+					<input type="text" name="nombre-y-apellido" id="nombre-y-apellido" required placeholder="Ingresa tu nombre y apellido*">
+				</div>
+				<div class="espaciado">
+					<label for="correo-electronico">Correo electrónico:</label>
+					<input type="email" name="correo-electronico" id="correo-electronico" required placeholder="Ingresa tu correo electrónico*">
+				</div>
+				<div class="espaciado">
+					<label for="escribe-tu-consulta">Escribe tu consulta:</label>
+					<textarea name="escribe-tu-consulta" id="escribe-tu-consulta" cols="30" rows="10" placeholder="Ingresa tu consulta..."></textarea>
+				</div>
+				<div class="botones">
+					<button type="submit" class="enviar">Enviar</button>
+					<button type="reset" class="borrar">Borrar</button>
+				</div>
+			</form>
+		</div>
+	</section>
+
+  <!-- Aca el footer -->
+
+  <footer>
+    <div class="end">
+      <p>Diseñado por Safdie Beatriz Ilanit.© Copyright  Reservados todos los derechos.</p>
+      <ul class="footer">
+        <li><a href="https://www.instagram.com/nowdelion/" target="new" title="Instagram"><img src="img/instagram_white.png"
+              alt="instagram"></a></li>
+        <li><a href="https://www.facebook.com/" target="new" title="Facebook"><img src="img/facebook_white.png"
+              alt="facebook"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script>
+    const myCarousel = new Carousel(document.querySelector(".carousel"), {
+      slides: [
+        {
+          html: "1",
+        },
+        {
+          html: "2",
+        },
+      ],
+    });
+  </script>
+
+</body>
+
+</html>
